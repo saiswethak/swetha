@@ -5,4 +5,4 @@ if a == 0:
 else:
     for i in range(1,a + 1):
         factroial = factroial*i
-print(factroial)
+    print(factroial)
