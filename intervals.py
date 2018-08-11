@@ -6,7 +6,7 @@ for i in range(lower,upper+1):
             count+=1
     if(count==2):
         if(c==0):
-            print(i,end="")
+            print(i,end=" ")
         else:
             print("",end=" ")
             print(i,end="")
