@@ -1,2 +1,2 @@
-m=input(" ").split()
-print("".join(str(x) for x in m))
+j=input(" ").split()
+print("".join(str(x) for x in j))
