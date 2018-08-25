@@ -1,6 +1,6 @@
-x,y=input().split()
-x,y=int(x),int(y)
-x=x^y
-y=x^y
-x=x^y
-print(x,y)
+m,n=input().split()
+m,n=int(m),int(n)
+m=m^n
+n=m^n
+m=m^n
+print(m,n)
