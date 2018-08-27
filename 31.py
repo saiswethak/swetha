@@ -1,2 +1,2 @@
 z=input(" ").split(' ')
-print(len(" ".join(str(x) for x in z)))
+print(len("".join(x for x in z)))
