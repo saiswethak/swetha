@@ -2,14 +2,21 @@ n=int(input(" "))
 s=1
 p=1
 count=0
+c=0
+k=" "
 if(n==0):
-    print(a)
+    print(s)
 elif(n<0):
-    print("postive number")
+    print("negative number")
 else:
     while(count<n):
-        print(s,sep=' ',end=' ')
-        nexterm= s+p
+        if(c==0):
+            print(s,end="")
+        else:    
+             print("",end=k)
+             print(s,end="")
+        nexterm=s+p    
         s=p
         p=nexterm
         count+=1
+        c+=1
