@@ -1,10 +1,10 @@
-sp=input()
+z=input()
 count=0
 count1=0
-for i in range(0,len(sp)):
-    if (sp[i]>='a' and sp[i]<='z') or (sp[i]>'A' and sp[i]<'Z'):
+for i in range(0,len(sz)):
+    if (z[i]>='a' and z[i]<='z') or (z[i]>'A' and z[i]<'Z'):
         count=1
-    elif (sp[i]=='1') or (sp[i]=='2') or (sp[i]=='3') or (sp[i]=='4') or (sp[i]=='5') or (sp[i]=='6') or (sp[i]=='7') or (sp[i]=='8') or (sp[i]=='9') or (sp[i]=='0'):
+    elif (z[i]=='1') or (z[i]=='2') or (z[i]=='3') or (z[i]=='4') or (z[i]=='5') or (z[i]=='6') or (z[i]=='7') or (z[i]=='8') or (z[i]=='9') or (z[i]=='0'):
         count1=1
 if count+count1==2:
     print("Yes")
